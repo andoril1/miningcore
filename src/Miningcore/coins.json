@@ -5137,6 +5137,39 @@
         "explorerTxLink": "https://explorer.anokas.tech/tx/{0}",
         "explorerAccountLink": "https://explorer.anokas.tech/address/{0}"
     },
+    "fren": {
+        "name": "Frencoin",
+        "symbol": "FREN",
+        "family": "progpow",
+        "website": "https://frencoin.org/",
+        "market": "",
+        "twitter": "",
+        "telegram": "",
+        "discord": "",
+        "coinbaseHasher": {
+            "hash": "sha256d"
+        },
+        "headerHasher": {
+            "hash": "sha256d"
+        },
+        "blockHasher": {
+            "hash": "reverse",
+            "args": [
+                {
+                    "hash": "sha256d"
+                }
+            ]
+        },
+        "hasFounderFee": true,
+        "hasMasterNodes": true,
+        "hasSmartNodes": true,
+        "foundersRewardAddress": ["ATcyY7anD6ycjzJM6sa5wkx4EkddFjkwAq"],
+        "shareMultiplier": 1,
+        "progpower": "kawpow",
+        "explorerBlockLink": "https://explorer.frencoin.org/block/$hash$",
+        "explorerTxLink": "https://explorer.frencoin.org/tx/{0}",
+        "explorerAccountLink": "https://explorer.frencoin.org/address/{0}"
+    },
     "neoxa": {
         "name": "Neoxa",
         "symbol": "NEOX",
@@ -5230,6 +5263,262 @@
         "explorerTxLink": "https://explorer.xenixchain.com/tx/{0}",
         "explorerAccountLink": "https://explorer.xenixchain.com/address/{0}"
     },
+	"gainprox": {
+        "name": "GainProX",
+        "canonicalName": "GainProX",
+        "symbol": "GPRX",
+        "family": "bitcoin",
+        "website": "https://gainprox.com/",
+        "market": "",
+        "twitter": "",
+        "telegram": "",
+        "discord": "https://discord.com/invite/ezMEyf7tcj",
+        "coinbaseHasher": {
+            "hash": "sha256d"
+        },
+        "headerHasher": {
+            "hash": "ghostrider"
+        },
+        "blockHasher": {
+            "hash": "reverse",
+            "args": [
+                {
+                    "hash": "sha256d"
+                }
+            ]
+        },
+        "hasFounderFee": true,
+        "hasMasterNodes": true,
+        "hasSmartNodes": true,
+        "shareMultiplier": 65536,
+        "explorerBlockLink": "https://explorer.gainprox.com/block/$height$",
+        "explorerTxLink": "https://explorer.gainprox.com/tx/{0}",
+        "explorerAccountLink": "https://explorer.gainprox.com/address/{0}"
+    },
+	"nikito": {
+        "name": "Nikitonium",
+        "canonicalName": "Nikitonium",
+        "symbol": "NIKI",
+        "family": "bitcoin",
+        "website": "https://nikitonium.com/",
+        "market": "",
+        "twitter": "https://twitter.com/nikitobase",
+        "telegram": "",
+        "discord": "",
+        "coinbaseHasher": {
+            "hash": "sha256d"
+        },
+        "headerHasher": {
+            "hash": "ghostrider"
+        },
+        "blockHasher": {
+            "hash": "reverse",
+            "args": [
+                {
+                    "hash": "sha256d"
+                }
+            ]
+        },
+        "hasFounderFee": true,
+        "hasMasterNodes": true,
+        "hasSmartNodes": true,
+        "shareMultiplier": 65536,
+        "explorerBlockLink": "https://explorer.nikitonium.com/block/$height$",
+        "explorerTxLink": "https://explorer.nikitonium.com/tx/{0}",
+        "explorerAccountLink": "https://explorer.nikitonium.com/address/{0}"
+    },
+	"jagoancoin": {
+        "name": "JagoanCoin",
+        "canonicalName": "JagoanCoin",
+        "symbol": "JGC",
+        "family": "bitcoin",
+        "website": "https://www.jagoancoin.online/",
+        "market": "",
+        "twitter": "https://twitter.com/jagoanpilot",
+        "telegram": "https://t.me/jgcofficial",
+        "discord": "https://discord.com/invite/a3brezx9vD",
+        "coinbaseHasher": {
+            "hash": "sha256d"
+        },
+        "headerHasher": {
+            "hash": "ghostrider"
+        },
+        "blockHasher": {
+            "hash": "reverse",
+            "args": [
+                {
+                    "hash": "sha256d"
+                }
+            ]
+        },
+        "hasFounderFee": true,
+        "hasMasterNodes": true,
+        "hasSmartNodes": true,
+        "shareMultiplier": 65536,
+        "explorerBlockLink": "https://explorer.jagoancoin.online/block/$height$",
+        "explorerTxLink": "https://explorer.jagoancoin.online/tx/{0}",
+        "explorerAccountLink": "https://explorer.jagoancoin.online/address/{0}"
+    },
+	"fsociety": {
+        "name": "FSociety",
+        "canonicalName": "FSociety",
+        "symbol": "FSC",
+        "family": "bitcoin",
+        "website": "https://fsocietychain.com/",
+        "market": "",
+        "twitter": "https://twitter.com/fsocietychain",
+        "telegram": "https://t.me/fsocietychain",
+        "discord": "https://discord.com/invite/KKPRwJ4",
+        "coinbaseHasher": {
+            "hash": "sha256d"
+        },
+        "headerHasher": {
+            "hash": "ghostrider"
+        },
+        "blockHasher": {
+            "hash": "reverse",
+            "args": [
+                {
+                    "hash": "sha256d"
+                }
+            ]
+        },
+        "hasFounderFee": true,
+        "hasMasterNodes": true,
+        "hasSmartNodes": true,
+        "shareMultiplier": 65536,
+        "explorerBlockLink": "https://explorer.fsocietychain.com/block/$height$",
+        "explorerTxLink": "https://explorer.fsocietychain.com/tx/{0}",
+        "explorerAccountLink": "https://explorer.fsocietychain.com/address/{0}"
+    },
+	"skytere": {
+        "name": "Skytere",
+        "canonicalName": "Skytere",
+        "symbol": "SKYT",
+        "family": "bitcoin",
+        "website": "https://skytere.com/",
+        "market": "",
+        "twitter": "",
+        "telegram": "",
+        "discord": "https://discord.com/invite/UGfj5D6hEb",
+        "coinbaseHasher": {
+            "hash": "sha256d"
+        },
+        "headerHasher": {
+            "hash": "ghostrider"
+        },
+        "blockHasher": {
+            "hash": "reverse",
+            "args": [
+                {
+                    "hash": "sha256d"
+                }
+            ]
+        },
+        "hasFounderFee": true,
+        "hasMasterNodes": true,
+        "hasSmartNodes": true,
+        "shareMultiplier": 65536,
+        "explorerBlockLink": "https://explorer.skytere.com/block/$height$",
+        "explorerTxLink": "https://explorer.skytere.com/tx/{0}",
+        "explorerAccountLink": "https://explorer.skytere.com/address/{0}"
+    },
+	"varsechain": {
+        "name": "VarseChain",
+        "canonicalName": "VarseChain",
+        "symbol": "VARSE",
+        "family": "bitcoin",
+        "website": "https://varsechain.com/",
+        "market": "",
+        "twitter": "https://twitter.com/VarseChain",
+        "telegram": "",
+        "discord": "https://discord.com/invite/aZdYp4R9",
+        "coinbaseHasher": {
+            "hash": "sha256d"
+        },
+        "headerHasher": {
+            "hash": "ghostrider"
+        },
+        "blockHasher": {
+            "hash": "reverse",
+            "args": [
+                {
+                    "hash": "sha256d"
+                }
+            ]
+        },
+        "hasFounderFee": true,
+        "hasMasterNodes": true,
+        "hasSmartNodes": true,
+        "shareMultiplier": 65536,
+        "explorerBlockLink": "https://explorer.varsechain.com/block/$height$",
+        "explorerTxLink": "https://explorer.varsechain.com/tx/{0}",
+        "explorerAccountLink": "https://explorer.varsechain.com/address/{0}"
+    },
+	"mecuai": {
+        "name": "Mecuai",
+        "canonicalName": "Mecuai",
+        "symbol": "MECU",
+        "family": "bitcoin",
+        "website": "https://mecuai.com/",
+        "market": "",
+        "twitter": "https://twitter.com/WeAreMecuAI",
+        "telegram": "https://t.me/mecuaipeople",
+        "discord": "https://discord.com/invite/RBDbYqfMgj",
+        "coinbaseHasher": {
+            "hash": "sha256d"
+        },
+        "headerHasher": {
+            "hash": "ghostrider"
+        },
+        "blockHasher": {
+            "hash": "reverse",
+            "args": [
+                {
+                    "hash": "sha256d"
+                }
+            ]
+        },
+        "hasFounderFee": true,
+        "hasMasterNodes": true,
+        "hasSmartNodes": true,
+        "shareMultiplier": 65536,
+        "explorerBlockLink": "https://explorer.mecuai.com/block/$height$",
+        "explorerTxLink": "https://explorer.mecuai.com/tx/{0}",
+        "explorerAccountLink": "https://explorer.mecuai.com/address/{0}"
+    },
+	"fuertecoin": {
+        "name": "FuerteCoin",
+        "canonicalName": "FuerteCoin",
+        "symbol": "FUEC",
+        "family": "bitcoin",
+        "website": "https://fuertecoin.network/",
+        "market": "",
+        "twitter": "https://twitter.com/FuerteCoinFUEC",
+        "telegram": "",
+        "discord": "https://discord.com/invite/KxFRmwkmuM",
+        "coinbaseHasher": {
+            "hash": "sha256d"
+        },
+        "headerHasher": {
+            "hash": "ghostrider"
+        },
+        "blockHasher": {
+            "hash": "reverse",
+            "args": [
+                {
+                    "hash": "sha256d"
+                }
+            ]
+        },
+        "hasFounderFee": true,
+        "hasMasterNodes": true,
+        "hasSmartNodes": true,
+        "shareMultiplier": 65536,
+        "explorerBlockLink": "http://explorer.fuertecoin.network:3001/block/$height$",
+        "explorerTxLink": "http://explorer.fuertecoin.network:3001/tx/{0}",
+        "explorerAccountLink": "http://explorer.fuertecoin.network:3001/address/{0}"
+    },
 	"tequichain": {
         "name": "TequiChain",
         "canonicalName": "TequiChain",
@@ -5261,5 +5550,34 @@
         "explorerBlockLink": "https://explorer.tequichain.com/block/$height$",
         "explorerTxLink": "https://explorer.tequichain.com/tx/{0}",
         "explorerAccountLink": "https://explorer.tequichain.com/address/{0}"
+    },
+    "cmusicai": {
+        "name": "CmusicAI",
+        "symbol": "CMS",
+        "family": "progpow",
+        "website": "https://cmusic.ai/",
+        "market": "https://www.coingecko.com/en/coins/cmusicai",
+        "twitter": "https://twitter.com/cmusicai",
+        "telegram": "",
+        "discord": "https://discord.com/invite/EanhmGKxcg",
+        "coinbaseHasher": {
+            "hash": "sha256d"
+        },
+        "headerHasher": {
+            "hash": "sha256d"
+        },
+        "blockHasher": {
+            "hash": "reverse",
+            "args": [
+                {
+                    "hash": "sha256d"
+                }
+            ]
+        },
+        "shareMultiplier": 1,
+        "progpower": "kawpow",
+        "explorerBlockLink": "https://explorer.cmusic.ai/block/$hash$",
+        "explorerTxLink": "https://explorer.cmusic.ai/transaction/{0}",
+        "explorerAccountLink": "https://explorer.cmusic.ai/address/{0}"
     }
 }
