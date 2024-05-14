@@ -144,6 +144,15 @@ public static class SedraCoinConstants
     public const string ChainPrefixMainnet = "sedra";
 }
 
+public static class K0bradagConstants
+{
+    // List of HTN prefixes: https://github.com/sedracoin/sedrad/blob/main/util/address.go
+    public const string ChainPrefixDevnet = "k0bradev";
+    public const string ChainPrefixSimnet = "k0brasim";
+    public const string ChainPrefixTestnet = "k0bratest";
+    public const string ChainPrefixMainnet = "k0bra";
+}
+
 public enum KaspaBech32Prefix
 {
     Unknown = 0,

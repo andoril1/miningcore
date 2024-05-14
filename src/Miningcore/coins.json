@@ -1628,6 +1628,40 @@
         "explorerTxLink": "https://openchains.info/coin/luckybit/tx/{0}",
         "explorerAccountLink": "https://openchains.info/coin/luckybit/address/{0}"
     },
+    "rogucoin": {
+        "name": "Rogucoin",
+        "symbol": "ROGU",
+        "family": "bitcoin",
+        "website": "https://rogucoin.com/",
+        "market": "",
+        "twitter": "https://twitter.com/rogucoin",
+        "telegram": "",
+        "discord": "https://discord.gg/7J7FMmrpEU",
+        "coinbaseHasher": {
+            "hash": "sha256d"
+        },
+        "headerHasher": {
+            "hash": "neoscrypt",
+            "args": [
+                0
+            ]
+        },
+        "blockHasher": {
+            "hash": "reverse",
+            "args": [
+                {
+                    "hash": "neoscrypt",
+                    "args": [
+                        0
+                    ]
+                }
+            ]
+        },
+        "shareMultiplier": 65536,
+        "explorerBlockLink": "https://explorer.rogucoin.com/block/$height$",
+        "explorerTxLink": "https://explorer.rogucoin.com/tx/{0}",
+        "explorerAccountLink": "https://explorer.rogucoin.com/address/{0}"
+    },
     "maza": {
         "name": "Maza",
         "canonicalName": "Maza",
@@ -5036,6 +5070,20 @@
         "explorerBlockLink": "https://explorer.pyrin.network/blocks/$hash$",
         "explorerTxLink": "https://explorer.pyrin.network/txs/{0}",
         "explorerAccountLink": "https://explorer.pyrin.network/addresses/{0}"
+    },
+    "k0bradag": {
+        "name": "K0bradag",
+        "canonicalName": "K0bradag",
+        "symbol": "PYI",
+        "family": "kaspa",
+        "website": "https://k0bradag.com/",
+        "market": "",
+        "twitter": "https://twitter.com/k0bradag",
+        "telegram": "https://t.me/k0bradag",
+        "discord": "https://discord.gg/ahnm5zENqg",
+        "explorerBlockLink": "https://explorer.k0bradag.com/blocks/$hash$",
+        "explorerTxLink": "https://explorer.k0bradag.com/txs/{0}",
+        "explorerAccountLink": "https://explorer.k0bradag.com/addresses/{0}"
     },
     "sedracoin": {
         "name": "Sedracoin",

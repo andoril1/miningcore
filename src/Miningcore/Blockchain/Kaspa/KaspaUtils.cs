@@ -384,6 +384,16 @@ public class KaspaAddressUtility
                 };
 
                 break;
+            case "K0BRA":
+                this.stringsToBech32Prefixes = new Dictionary<string, KaspaBech32Prefix>
+                {
+                    { HoosatConstants.ChainPrefixMainnet, KaspaBech32Prefix.KaspaMain },
+                    { HoosatConstants.ChainPrefixDevnet, KaspaBech32Prefix.KaspaDev },
+                    { HoosatConstants.ChainPrefixTestnet, KaspaBech32Prefix.KaspaTest },
+                    { HoosatConstants.ChainPrefixSimnet, KaspaBech32Prefix.KaspaSim },
+                };
+
+                break;
             case "KLS":
                 this.stringsToBech32Prefixes = new Dictionary<string, KaspaBech32Prefix>
                 {
