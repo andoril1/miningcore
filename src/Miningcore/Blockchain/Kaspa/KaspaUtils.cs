@@ -387,10 +387,10 @@ public class KaspaAddressUtility
             case "K0BRA":
                 this.stringsToBech32Prefixes = new Dictionary<string, KaspaBech32Prefix>
                 {
-                    { K0braConstants.ChainPrefixMainnet, KaspaBech32Prefix.KaspaMain },
-                    { K0braConstants.ChainPrefixDevnet, KaspaBech32Prefix.KaspaDev },
-                    { K0braConstants.ChainPrefixTestnet, KaspaBech32Prefix.KaspaTest },
-                    { K0braConstants.ChainPrefixSimnet, KaspaBech32Prefix.KaspaSim },
+                    { K0bradagConstants.ChainPrefixMainnet, KaspaBech32Prefix.KaspaMain },
+                    { K0bradagConstants.ChainPrefixDevnet, KaspaBech32Prefix.KaspaDev },
+                    { K0bradagConstants.ChainPrefixTestnet, KaspaBech32Prefix.KaspaTest },
+                    { K0bradagConstants.ChainPrefixSimnet, KaspaBech32Prefix.KaspaSim },
                 };
 
                 break;
