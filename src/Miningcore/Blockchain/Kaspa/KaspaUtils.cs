@@ -422,7 +422,7 @@ public class KaspaAddressUtility
                     { ConsensusNetworkConstants.ChainPrefixTestnet, KaspaBech32Prefix.KaspaTest },
                     { ConsensusNetworkConstants.ChainPrefixSimnet, KaspaBech32Prefix.KaspaSim },
                 };
-                
+                break;
             case "PUG":
                 this.stringsToBech32Prefixes = new Dictionary<string, KaspaBech32Prefix>
                 {
