@@ -2258,6 +2258,41 @@
         "explorerTxLink": "https://explorer.raptoreum.com/tx/{0}",
         "explorerAccountLink": "https://explorer.raptoreum.com/address/{0}"
     },
+    "fewbit": {
+        "name": "Fewbit",
+        "canonicalName": "Fewbit",
+        "symbol": "FBIT",
+        "family": "bitcoin",
+        "website": "https://fewbit.net/",
+        "market": "",
+        "twitter": "",
+        "telegram": "",
+        "discord": "https://discord.gg/BCjYR8cbuQ",
+        "coinbaseHasher": {
+            "hash": "sha256d"
+        },
+        "headerHasher": {
+            "hash": "ghostrider"
+        },
+        "blockHasher": {
+            "hash": "reverse",
+            "args": [
+                {
+                    "hash": "sha256d"
+                }
+            ]
+        },
+        "hasFounderFee": true,
+        "hasMasterNodes": true,
+        "hasSmartNodes": true,
+        "foundersRewardAddress": [
+            ""
+        ],
+        "shareMultiplier": 65536,
+        "explorerBlockLink": "https://explorer.fewbit.net/block-height/$height$",
+        "explorerTxLink": "https://explorer.fewbit.net/tx/{0}",
+        "explorerAccountLink": "https://explorer.fewbit.net/address/{0}"
+    },
     "gspcoin": {
         "name": "Gsp Coin",
         "canonicalName": "GspCoin",
@@ -5627,5 +5662,19 @@
         "explorerBlockLink": "https://explorer.cmusic.ai/block/$hash$",
         "explorerTxLink": "https://explorer.cmusic.ai/transaction/{0}",
         "explorerAccountLink": "https://explorer.cmusic.ai/address/{0}"
+    },
+    "pugdag": {
+        "name": "Pugdag",
+        "canonicalName": "Pugdag",
+        "symbol": "PUG",
+        "family": "kaspa",
+        "website": "",
+        "market": "",
+        "twitter": "",
+        "telegram": "",
+        "discord": "https://github.com/pugdag/pugdagd",
+        "explorerBlockLink": "https://explorer.pugdag.com/blocks/$hash$",
+        "explorerTxLink": "https://explorer.pugdag.com/txs/{0}",
+        "explorerAccountLink": "https://explorer.pugdag.com/addresses/{0}"
     }
 }

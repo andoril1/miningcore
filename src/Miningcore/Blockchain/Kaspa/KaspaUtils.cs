@@ -387,10 +387,10 @@ public class KaspaAddressUtility
             case "K0BRA":
                 this.stringsToBech32Prefixes = new Dictionary<string, KaspaBech32Prefix>
                 {
-                    { HoosatConstants.ChainPrefixMainnet, KaspaBech32Prefix.KaspaMain },
-                    { HoosatConstants.ChainPrefixDevnet, KaspaBech32Prefix.KaspaDev },
-                    { HoosatConstants.ChainPrefixTestnet, KaspaBech32Prefix.KaspaTest },
-                    { HoosatConstants.ChainPrefixSimnet, KaspaBech32Prefix.KaspaSim },
+                    { K0braConstants.ChainPrefixMainnet, KaspaBech32Prefix.KaspaMain },
+                    { K0braConstants.ChainPrefixDevnet, KaspaBech32Prefix.KaspaDev },
+                    { K0braConstants.ChainPrefixTestnet, KaspaBech32Prefix.KaspaTest },
+                    { K0braConstants.ChainPrefixSimnet, KaspaBech32Prefix.KaspaSim },
                 };
 
                 break;
@@ -423,6 +423,14 @@ public class KaspaAddressUtility
                     { ConsensusNetworkConstants.ChainPrefixSimnet, KaspaBech32Prefix.KaspaSim },
                 };
                 
+            case "PUG":
+                this.stringsToBech32Prefixes = new Dictionary<string, KaspaBech32Prefix>
+                {
+                    { PugdagConstants.ChainPrefixMainnet, KaspaBech32Prefix.KaspaMain },
+                    { PugdagConstants.ChainPrefixDevnet, KaspaBech32Prefix.KaspaDev },
+                    { PugdagConstants.ChainPrefixTestnet, KaspaBech32Prefix.KaspaTest },
+                    { PugdagConstants.ChainPrefixSimnet, KaspaBech32Prefix.KaspaSim },
+                };
                 break;           
             case "NXL":
                 this.stringsToBech32Prefixes = new Dictionary<string, KaspaBech32Prefix>

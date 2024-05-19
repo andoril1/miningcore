@@ -153,6 +153,15 @@ public static class K0bradagConstants
     public const string ChainPrefixMainnet = "k0bra";
 }
 
+public static class PugdagConstants
+{
+    // List of HTN prefixes: https://github.com/Pugdag/pugdagd/blob/main/util/address.go
+    public const string ChainPrefixDevnet = "pugdagdev";
+    public const string ChainPrefixSimnet = "pugdagsim";
+    public const string ChainPrefixTestnet = "pugdagtest";
+    public const string ChainPrefixMainnet = "pugdag";
+}
+
 public enum KaspaBech32Prefix
 {
     Unknown = 0,
