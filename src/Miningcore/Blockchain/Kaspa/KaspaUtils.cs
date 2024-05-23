@@ -384,7 +384,7 @@ public class KaspaAddressUtility
                 };
 
                 break;
-            case "K0BRA":
+            case "K0DA":
                 this.stringsToBech32Prefixes = new Dictionary<string, KaspaBech32Prefix>
                 {
                     { K0bradagConstants.ChainPrefixMainnet, KaspaBech32Prefix.KaspaMain },

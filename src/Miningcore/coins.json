@@ -5106,19 +5106,19 @@
         "explorerTxLink": "https://explorer.pyrin.network/txs/{0}",
         "explorerAccountLink": "https://explorer.pyrin.network/addresses/{0}"
     },
-    "k0bradag": {
-        "name": "K0bradag",
-        "canonicalName": "K0bradag",
-        "symbol": "PYI",
+    "kobradag": {
+        "name": "Kobradag",
+        "canonicalName": "Kobradag",
+        "symbol": "KODA",
         "family": "kaspa",
         "website": "https://k0bradag.com/",
         "market": "",
         "twitter": "https://twitter.com/k0bradag",
         "telegram": "https://t.me/k0bradag",
         "discord": "https://discord.gg/ahnm5zENqg",
-        "explorerBlockLink": "https://explorer.k0bradag.com/blocks/$hash$",
-        "explorerTxLink": "https://explorer.k0bradag.com/txs/{0}",
-        "explorerAccountLink": "https://explorer.k0bradag.com/addresses/{0}"
+        "explorerBlockLink": "https://explorer.k0bradag.online/blocks/$hash$",
+        "explorerTxLink": "https://explorer.k0bradag.online/txs/{0}",
+        "explorerAccountLink": "https://explorer.k0bradag.online/addresses/{0}"
     },
     "sedracoin": {
         "name": "Sedracoin",

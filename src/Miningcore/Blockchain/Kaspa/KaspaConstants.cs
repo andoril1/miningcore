@@ -146,11 +146,11 @@ public static class SedraCoinConstants
 
 public static class K0bradagConstants
 {
-    // List of HTN prefixes: https://github.com/sedracoin/sedrad/blob/main/util/address.go
-    public const string ChainPrefixDevnet = "k0bradev";
-    public const string ChainPrefixSimnet = "k0brasim";
-    public const string ChainPrefixTestnet = "k0bratest";
-    public const string ChainPrefixMainnet = "k0bra";
+    // List of KODA prefixes: https://github.com/kobradag/kobrad/blob/master/util/address.go
+    public const string ChainPrefixDevnet = "kobradev";
+    public const string ChainPrefixSimnet = "kobrasim";
+    public const string ChainPrefixTestnet = "kobratest";
+    public const string ChainPrefixMainnet = "kobra";
 }
 
 public static class PugdagConstants

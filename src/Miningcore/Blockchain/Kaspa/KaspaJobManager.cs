@@ -231,7 +231,7 @@ public class KaspaJobManager : JobManagerBase<KaspaJob>
                     customShareHasher = new Blake3();
 
                 return new PyrinJob(customBlockHeaderHasher, customCoinbaseHasher, customShareHasher);
-            case "K0BRA":
+            case "KODA":
                 if(customBlockHeaderHasher is not Blake3)
                 {
                     string coinbaseBlockHash = KaspaConstants.CoinbaseBlockHash;
