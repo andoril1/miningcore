@@ -258,6 +258,7 @@ public partial class KaspaCoinTemplate
     {
         switch(Symbol)
         {
+            case "PUG":
             case "KLS":
             case "NTL":
             case "CSS":
@@ -269,7 +270,6 @@ public partial class KaspaCoinTemplate
             case "CAS": 
             case "HTN":
             case "KODA":
-                return "Pyrinhash";
             case "PYI":
                 return "Pyrinhash";
             default:

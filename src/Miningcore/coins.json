@@ -5050,6 +5050,20 @@
         "explorerTxLink": "https://explorer.karlsencoin.com/txs/{0}",
         "explorerAccountLink": "https://explorer.karlsencoin.com/addresses/{0}"
     },
+    "pugdag": {
+        "name": "Pugdag",
+        "canonicalName": "Pugdag",
+        "symbol": "PUG",
+        "family": "kaspa",
+        "website": "",
+        "market": "",
+        "twitter": "https://x.com/pug_dag",
+        "telegram": "https://t.me/pug_dag",
+        "discord": "https://discord.gg/TzXV8pk2X7",
+        "explorerBlockLink": "https://explorer.pugdag.com/blocks/$hash$",
+        "explorerTxLink": "https://explorer.pugdag.com/txs/{0}",
+        "explorerAccountLink": "https://explorer.pugdag.com/addresses/{0}"
+    },
     "nautilus": {
         "name": "Nautilus",
         "canonicalName": "Nautilus",
@@ -5676,5 +5690,54 @@
         "explorerBlockLink": "https://explorer.pugdag.com/blocks/$hash$",
         "explorerTxLink": "https://explorer.pugdag.com/txs/{0}",
         "explorerAccountLink": "https://explorer.pugdag.com/addresses/{0}"
+    },
+    "rogucoin": {
+        "name": "Rogucoin",
+        "symbol": "ROGU",
+        "family": "bitcoin",
+        "website": "https://rogucoin.com/",
+        "market": "",
+        "twitter": "https://twitter.com/rogucoin",
+        "telegram": "https://t.me/rogucoin",
+        "discord": "https://discord.gg/7J7FMmrpEU",
+        "coinbaseHasher": {
+            "hash": "sha256d"
+        },
+        "headerHasher": {
+            "hash": "neoscrypt",
+            "args": [
+                0
+            ]
+        },
+        "blockHasher": {
+            "hash": "reverse",
+            "args": [
+                {
+                    "hash": "neoscrypt",
+                    "args": [
+                        0
+                    ]
+                }
+            ]
+        },
+        "shareMultiplier": 65536,
+        "hasMasterNodes": true,
+        "explorerBlockLink": "https://explorer.rogucoin.com/block/$height$",
+        "explorerTxLink": "https://explorer.rogucoin.com/tx/tx/{0}",
+        "explorerAccountLink": "https://explorer.rogucoin.com/address/{0}"
+    },
+    "kobradag": {
+        "name": "kobradag",
+        "canonicalName": "kobradag",
+        "symbol": "KODA",
+        "family": "kaspa",
+        "website": "https://k0bradag.com/",
+        "market": "",
+        "twitter": "https://twitter.com/k0bradag",
+        "telegram": "https://t.me/k0bradag",
+        "discord": "https://discord.com/invite/ahnm5zENqg",
+        "explorerBlockLink": "https://explorer.kobradag.online/blocks/$hash$",
+        "explorerTxLink": "https://explorer.kobradag.online/txs/{0}",
+        "explorerAccountLink": "https://explorer.kobradag.online/addresses/{0}"
     }
 }

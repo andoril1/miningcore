@@ -24,6 +24,15 @@ public static class HoosatConstants
     public const string ChainPrefixMainnet = "hoosat";
 }
 
+public static class KobradagConstants
+{
+    // List of Kobra prefixes: https://github.com/kobradag/kobrad/blob/master/util/address.go
+    public const string ChainPrefixDevnet = "kobradev";
+    public const string ChainPrefixSimnet = "kobrasim";
+    public const string ChainPrefixTestnet = "kobratest";
+    public const string ChainPrefixMainnet = "kobra";
+}
+
 public static class KaspaConstants
 {
     public const string WalletDaemonCategory = "wallet";
@@ -103,6 +112,15 @@ public static class NautilusConstants
     public const string ChainPrefixSimnet = "nautilussim";
     public const string ChainPrefixTestnet = "nautilustest";
     public const string ChainPrefixMainnet = "nautilus";
+}
+
+public static class PugdagConstants
+{
+    // List of PUG prefixes: https://github.com/Pugdag/pugdagd/blob/main/util/address.go
+    public const string ChainPrefixDevnet = "pugdagdev";
+    public const string ChainPrefixSimnet = "pugdagsim";
+    public const string ChainPrefixTestnet = "pugdagtest";
+    public const string ChainPrefixMainnet = "pugdag";
 }
 
 public static class ConsensusNetworkConstants
