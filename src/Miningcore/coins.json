@@ -5677,67 +5677,20 @@
         "explorerTxLink": "https://explorer.cmusic.ai/transaction/{0}",
         "explorerAccountLink": "https://explorer.cmusic.ai/address/{0}"
     },
-    "pugdag": {
-        "name": "Pugdag",
-        "canonicalName": "Pugdag",
-        "symbol": "PUG",
+    "bitmeme": {
+        "name": "Bitmeme",
+        "canonicalName": "BitMEME",
+        "symbol": "BTM",
         "family": "kaspa",
-        "website": "",
+        "website": "https://bitmeme.site/",
+        "explorer": "https://explorer.bitmeme.world/",
+        "github": "https://github.com/bitmeme-taxi/",
         "market": "",
-        "twitter": "",
-        "telegram": "",
-        "discord": "https://github.com/pugdag/pugdagd",
-        "explorerBlockLink": "https://explorer.pugdag.com/blocks/$hash$",
-        "explorerTxLink": "https://explorer.pugdag.com/txs/{0}",
-        "explorerAccountLink": "https://explorer.pugdag.com/addresses/{0}"
-    },
-    "rogucoin": {
-        "name": "Rogucoin",
-        "symbol": "ROGU",
-        "family": "bitcoin",
-        "website": "https://rogucoin.com/",
-        "market": "",
-        "twitter": "https://twitter.com/rogucoin",
-        "telegram": "https://t.me/rogucoin",
-        "discord": "https://discord.gg/7J7FMmrpEU",
-        "coinbaseHasher": {
-            "hash": "sha256d"
-        },
-        "headerHasher": {
-            "hash": "neoscrypt",
-            "args": [
-                0
-            ]
-        },
-        "blockHasher": {
-            "hash": "reverse",
-            "args": [
-                {
-                    "hash": "neoscrypt",
-                    "args": [
-                        0
-                    ]
-                }
-            ]
-        },
-        "shareMultiplier": 65536,
-        "hasMasterNodes": true,
-        "explorerBlockLink": "https://explorer.rogucoin.com/block/$height$",
-        "explorerTxLink": "https://explorer.rogucoin.com/tx/tx/{0}",
-        "explorerAccountLink": "https://explorer.rogucoin.com/address/{0}"
-    },
-    "kobradag": {
-        "name": "kobradag",
-        "canonicalName": "kobradag",
-        "symbol": "KODA",
-        "family": "kaspa",
-        "website": "https://k0bradag.com/",
-        "market": "",
-        "twitter": "https://twitter.com/k0bradag",
-        "telegram": "https://t.me/k0bradag",
-        "discord": "https://discord.com/invite/ahnm5zENqg",
-        "explorerBlockLink": "https://explorer.kobradag.online/blocks/$hash$",
-        "explorerTxLink": "https://explorer.kobradag.online/txs/{0}",
-        "explorerAccountLink": "https://explorer.kobradag.online/addresses/{0}"
+        "twitter": "https://x.com/bitmemebtm",
+        "telegram": "https://t.me/bitmemebtm",
+        "discord": "https://discord.gg/bitmemebtm",
+        "explorerBlockLink": "https://explorer.bitmeme.world//blocks/$hash$",
+        "explorerTxLink": "https://explorer.bitmeme.world//txs/{0}",
+        "explorerAccountLink": "https://explorer.bitmeme.world//addresses/{0}"
     }
 }

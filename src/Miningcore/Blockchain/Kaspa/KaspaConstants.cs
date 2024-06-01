@@ -162,13 +162,22 @@ public static class SedraCoinConstants
     public const string ChainPrefixMainnet = "sedra";
 }
 
-public static class K0bradagConstants
+public static class KobradagConstants
 {
     // List of KODA prefixes: https://github.com/kobradag/kobrad/blob/master/util/address.go
     public const string ChainPrefixDevnet = "kobradev";
     public const string ChainPrefixSimnet = "kobrasim";
     public const string ChainPrefixTestnet = "kobratest";
     public const string ChainPrefixMainnet = "kobra";
+}
+
+public static class bitmemeConstants
+{
+    // List of KODA prefixes: https://github.com/bitmeme-taxi/bitmemed/blob/main/util/address.go
+    public const string ChainPrefixDevnet = "btmdev";
+    public const string ChainPrefixSimnet = "btmsim";
+    public const string ChainPrefixTestnet = "btmtest";
+    public const string ChainPrefixMainnet = "btm";
 }
 
 public static class PugdagConstants
