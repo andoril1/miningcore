@@ -162,7 +162,7 @@ public static class SedraCoinConstants
     public const string ChainPrefixMainnet = "sedra";
 }
 
-public static class bitmemeConstants
+public static class BitmemeCoinConstants
 {
     // List of KODA prefixes: https://github.com/bitmeme-taxi/bitmemed/blob/main/util/address.go
     public const string ChainPrefixDevnet = "btmdev";
