@@ -211,7 +211,7 @@ public class ProgpowJob : BitcoinJob
         {
             masterNodeParameters = BlockTemplate.Extra.SafeExtensionDataAs<MasterNodeBlockTemplateExtra>();
 
-            if(coin.Symbol == "FIRO")
+            if(coin.Symbol == "FIRO" || coin.Symbol == "KIIRO")
             {
                 if(masterNodeParameters.Extra?.ContainsKey("znode") == true)
                 {
@@ -219,6 +219,13 @@ public class ProgpowJob : BitcoinJob
                 }
             }
 
+             if(coin.HasSmartNodes)
+            {
+                if(masterNodeParameters.Extra?.ContainsKey("smartnode") == true)
+                {
+                    masterNodeParameters.Masternode = JToken.FromObject(masterNodeParameters.Extra["smartnode"]);
+                }
+            }
             if(!string.IsNullOrEmpty(masterNodeParameters.CoinbasePayload))
             {
                 txVersion = 3;
@@ -235,6 +242,7 @@ public class ProgpowJob : BitcoinJob
 
         if (coin.HasMinerFund)
             minerFundParameters = BlockTemplate.Extra.SafeExtensionDataAs<MinerFundTemplateExtra>("coinbasetxn", "minerfund");
+
 
         this.coinbaseHasher = coinbaseHasher;
         this.headerHasher = headerHasher;
