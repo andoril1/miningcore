@@ -219,7 +219,7 @@ public class ProgpowJob : BitcoinJob
                 }
             }
 
-             if(coin.HasSmartNodes)
+            if(coin.HasSmartNodes)
             {
                 if(masterNodeParameters.Extra?.ContainsKey("smartnode") == true)
                 {

@@ -5677,22 +5677,6 @@
         "explorerTxLink": "https://explorer.cmusic.ai/transaction/{0}",
         "explorerAccountLink": "https://explorer.cmusic.ai/address/{0}"
     },
-    "bitmeme": {
-        "name": "Bitmeme",
-        "canonicalName": "BitMEME",
-        "symbol": "BTM",
-        "family": "kaspa",
-        "website": "https://bitmeme.site/",
-        "explorer": "https://explorer.bitmeme.world/",
-        "github": "https://github.com/bitmeme-taxi/",
-        "market": "",
-        "twitter": "https://x.com/bitmemebtm",
-        "telegram": "https://t.me/bitmemebtm",
-        "discord": "https://discord.gg/bitmemebtm",
-        "explorerBlockLink": "https://explorer.bitmeme.world//blocks/$hash$",
-        "explorerTxLink": "https://explorer.bitmeme.world//txs/{0}",
-        "explorerAccountLink": "https://explorer.bitmeme.world//addresses/{0}"
-    }
     "smartmeme": {
         "name": "SmartMeme",
         "symbol": "SMME",
@@ -5720,11 +5704,26 @@
         "hasFounderFee": true,
         "hasMasterNodes": true,
         "hasSmartNodes": true,
-        "foundersRewardAddress": ["SYVtMPLdh3iHnk4p46Q6XBG2PVQuqFkbet"],
+        "foundersRewardAddress": ["SWEnFHZcj7WZTuSdZ6hdpgWoLMk5TLhhD9"],
         "shareMultiplier": 1,
         "explorerBlockLink": "http://explorer.smartmeme.online/block/$hash$",
         "explorerTxLink": "http://explorer.smartmeme.online/tx/{0}",
         "explorerAccountLink": "http://explorer.smartmeme.online/address/{0}"
+    },
+    "bitmeme": {
+        "name": "Bitmeme",
+        "canonicalName": "BitMEME",
+        "symbol": "BTM",
+        "family": "kaspa",
+        "website": "https://bitmeme.site/",
+        "explorer": "https://explorer.bitmeme.world/",
+        "github": "https://github.com/bitmeme-taxi/",
+        "market": "",
+        "twitter": "https://x.com/bitmemebtm",
+        "telegram": "https://t.me/bitmemebtm",
+        "discord": "https://discord.gg/bitmemebtm",
+        "explorerBlockLink": "https://explorer.bitmeme.world//blocks/$hash$",
+        "explorerTxLink": "https://explorer.bitmeme.world//txs/{0}",
+        "explorerAccountLink": "https://explorer.bitmeme.world//addresses/{0}"
     }
-
 }
